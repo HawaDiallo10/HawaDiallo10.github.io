@@ -1,0 +1,16 @@
+#clickCounterSection {
+    text-align: center;
+}
+
+button {
+    background-color: pink;
+    color: white;
+}
+
+button:hover {
+    background-color: dark palevioletred;
+}
+
+h1 {
+    text-align: center;
+}
