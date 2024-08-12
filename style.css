@@ -1,16 +1,118 @@
+body, h1,h2, p, .navbar {
+
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #F48FB1;
+    padding: 10px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-links {
+
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav-links a {
+
+    margin: 0 15px;
+    color:#C2185B;
+text-decoration: none;
+}
+
+.navbar a{
+
+    margin:0 10px;
+    color: #C2185B;
+    text-decoration: none;
+}
+
+
+
+.container {
+    margin-top: 20px;
+}
+
+.text-center ul {
+    list-style-type:none;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
 #clickCounterSection {
     text-align: center;
 }
 
+
+
 button {
-    background-color: pink;
+    background-color: #F06292;
     color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
-
 button:hover {
-    background-color: dark palevioletred;
+    background-color: dark #EC407A;
 }
 
-h1 {
+h1,h2 {
     text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+    
+.box {
+    border: 2px solid #F8BBD0;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+    color: #C2185B;
+}
+
+p {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+
+ body {
+    color: #C2185B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F8BBD0;
+ }
+
+ .shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .nav-home {
+margin-right: auto;
+  }
+
+  p:hover, h1:hover , h2:hover, a:hover, ul li:hover {
+    color:black;
+    
+  }
+
+  div:hover, span:hover {
+    color:black;
+    
 }

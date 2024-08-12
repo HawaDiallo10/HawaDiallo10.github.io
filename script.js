@@ -1,12 +1,12 @@
-document.addEventListener('DOMContentLoaded',() => {
+document.addEventListener('DOMContentLoaded',function() {
 
-    let clickButton = document.getElementById('clickButton');
+    let button = document.getElementById('clickButton');
 
     let clickContDisplay = document.getElementById('clickCount');
 
     let clickCount = 0;
 
-    clickButton.addEventListener('click', () => {
+    button.addEventListener('click', function() {
 
     clickCount++;
 
