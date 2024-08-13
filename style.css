@@ -3,6 +3,11 @@ body, h1,h2, p, .navbar {
     font-family: 'Shadows Into Light', cursive;
 }
 
+body {
+    color: #C2185B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F8BBD0;
+ }
 
 .navbar {
     display: flex;
